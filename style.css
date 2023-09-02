@@ -1,0 +1,51 @@
+*{
+  margin: 0;
+  padding: 0;
+
+}
+
+body{
+  background-image: url(bg-pic.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 800px;
+}
+
+.form{
+  width: 300px;
+  height: 400px;
+  background-color: white;
+  float: right;
+  margin-top: 150px;
+  margin-right: 150px;
+}
+
+h1{
+  text-align: center;
+}
+
+input[type="text"],[type="email"],[type="password"]{
+  padding: 8px;
+  margin: 10px;
+  width: 85%;
+}
+
+input[type="radio"]{
+  margin-top: 10px;
+  margin-left: 10px;
+}
+
+select{
+  margin: 10px;
+}
+
+button{
+  margin: 10px;
+  width: 270px;
+  background-color: rgb(53, 53, 105);
+  color: white;
+  font-size: 15px;
+}
+
+
